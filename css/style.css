@@ -1,0 +1,26 @@
+.card {
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.card-header {
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+}
+
+.card-text {
+    /* width: 80%; */
+    color: var(--color-3);
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-img-top {
+    border-radius: .5em;
+}
+
+.card-header,
+.card-text{
+  padding: 0 1em;
+}

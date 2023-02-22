@@ -1,0 +1,16 @@
+.body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 100vh;
+    background-color: var(--color-2);
+    /* font-size: 15px; */
+  }
+  
+  .card {
+    min-width: 375px;
+    max-width: var(--mobile-width);
+    background-color: var(--color-1);
+    color: var(--color-4)
+  }
